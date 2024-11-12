@@ -118,7 +118,7 @@ Table 1 provides a summary of these columns, exhibiting the total views, total r
 Figure 1 shows that the video “$456,000 Squid Game In Real Life! “ leads with over 1.7 thousands of replies which reflects active viewer participation. Notably,  “Ages 1 – 100 Fight For $500,000”, “I Spent 50 Hours Buried Alive”, and “Would You Sit In Snakes For $10,000? “ having the total reply count over 10000. “$456,000 Squid Game In Real Life!”, “Ages 1 – 100 Fight For $500,000”, “I Spent 50 Hours Buried Alive”, and “Would You Sit In Snakes For $10,000?” each had over 10,000 replies, highlighting their potential for attracting an huge audience response. 
 </br>
 <p align="center">
-  <img align="center" width="700" alt="total reply count" src="https://github.com/user-attachments/assets/e33f4eb2-3b36-4e3f-a768-581887884e3c">
+  <img width="718" alt="Total reply count" src="https://github.com/user-attachments/assets/9ca8606b-e20a-42a9-8e0f-873f895597d6">
 </p>
 <p align="center"><b><i>Figure 1: Total reply count of each video</b></i></p>
 
@@ -126,7 +126,7 @@ Figure 1 shows that the video “$456,000 Squid Game In Real Life! “ leads wit
 As shown in figure 2 the video “$456,000 Squid Game In Real Life!” is particularly noteworthy, having accumulated over 1.3 million likes This reflects a significant positive reception from the audience. Similarly, video such as Ages 1 – 100 Fight For $500,000”, “ I Spent 50 Hours Buried Alive”, and “ Would You Sit In Snakes For $10,000?” also received a huge number of likes, with 794,931, 711,370, and 596,675 respectively.
 </br>
 <p align="center">
-  <img align="center" width="700" alt="total like count" src="https://github.com/user-attachments/assets/9b2ac01c-3dd3-4bf4-a74c-b0ea397b1f7e">
+  <img width="704" alt="Total comment like count" src="https://github.com/user-attachments/assets/4f1b231e-cb33-4191-90a9-0a43d613c2b5">
 </p>
 <p align="center"><b><i>Figure 2: Total comment like count of each video</b></i></p>
 
@@ -135,11 +135,11 @@ Next step was to identify the most frequently used two-words and three-words phr
 Figures 3 and 4 show that "mr beast" and "10 000" are the top two most frequently used word combination in both comment’s dataset and Mr. Beast comment’s dataset. In the comment data, "mr beast" is the most significant used two word with the count of 1,011, followed by "10 00" with 86 occurrences. the first, with 1011 count, and "10 000" the second, with 86 counts, in comments’ data and “10 000” the first, with 45 counts, and "mr beast" the second, with 29 counts in Mr. Beast’s data. In contrast, in Mr. Beast’s dataset, "10 000" is the most frequent two words, with 45 times, while "mr beast" comes second with 29 times. 
 
 <p align="center">
-  <img align="center" width="600" alt="comment bigram" src="https://github.com/user-attachments/assets/3e4847ee-d9d6-4d1c-9b52-c18784fef740">
+  <img width="896" alt="Comment’s Bigram" src="https://github.com/user-attachments/assets/bb062c11-6247-4fb3-bc9e-ca9317d8d0c3">
 </p>
 <p align="center"><b><i>Figure 3: Comment’s Bigram</b></i></p>
 <p align="center">
-  <img align="center" width="600" alt="mrbeast bigram" src="https://github.com/user-attachments/assets/e36439a9-bafa-4604-a170-f32b6cde323f">
+  <img width="949" alt="Mr. Beast’s Bigram" src="https://github.com/user-attachments/assets/c347ccdd-a8ca-408b-8dc1-34ddd5ad9263">
 </p>
 <p align="center"><b><i>Figure 4: Mr. Beast’s Bigram</b></i></p>
 
@@ -147,19 +147,19 @@ Figures 3 and 4 show that "mr beast" and "10 000" are the top two most frequentl
 Trigram, a combination of three words, was revealed in Figure 5, Comment’s data, and Figure 6, Mr. Beast replies. In audience comments, "love mr beast" and "appreciate much effort" are the top two most frequently used trigram, sharing the same number 43 times. Conversely, in Mr. Beast’s replies, "half million dollars" and "rock paper scissors" were the most common three words, with 16 and 8 times in the whole data. Last, a word cloud is created based on the word frequency and has provide a slightly more understandable and elegant, making it easier to visualise the data (Figure 7 & 8). 
 <p></p>
 <p align="center">
-  <img align="center" width="600" alt="comment trigram" src="https://github.com/user-attachments/assets/4f25159a-babf-4f7e-bfaf-6ab989204e5a">
+  <img width="906" alt="Comment’s Trigram" src="https://github.com/user-attachments/assets/584bd66d-516b-42a3-b5a8-2c244f1bd261">
 </p>
 <p align="center"><b><i>Figure 5: Comment’s Trigram</b></i></p>
 <p align="center">
-  <img align="center" width="600" alt="mrbeast trigram" src="https://github.com/user-attachments/assets/a7e9b678-2638-487e-948e-b08595818ee5">
+  <img width="1013" alt="Mr. Beast’s Trigram" src="https://github.com/user-attachments/assets/ec1e920b-e1b0-45bc-bda7-cc3655d80580">
 </p>
 <p align="center"><b><i>Figure 6: Mr. Beast’s Trigram</b></i></p>
 <p align="center">
-  <img align="center" width="600" alt="total reply count" src="https://github.com/user-attachments/assets/2fedacd0-1339-4878-ac25-1195a79d7118">
+  <img width="683" alt="Comment’s Word Cloud" src="https://github.com/user-attachments/assets/9040c213-2e3e-4bd3-a1dc-a99545066c06">
 </p>
 <p align="center"><b><i>Figure 7: Comment’s Word Cloud</b></i></p>
 <p align="center">
-  <img align="center" width="600" alt="total reply count" src="https://github.com/user-attachments/assets/3f616eb3-86fb-4798-9730-9d087095c71c">
+  <img width="674" alt="Mr. Beast’s Word Cloud" src="https://github.com/user-attachments/assets/7573b122-c4c4-472f-bbae-49c02039f0b6">
 </p>
 <p align="center"><b><i>Figure 8: Mr. Beast’s Word Cloud</b></i></p>
 
@@ -167,7 +167,7 @@ Trigram, a combination of three words, was revealed in Figure 5, Comment’s dat
 The results of the Sentiment analysis of both the audience’s comments and Mr. Beast’s comments and replies are presented in Figure 9.  In the audience’s comment, it is noticeable that the positive and neutral sentiments are the majority sentiment in the dataset, with 44.7% and 42.5% of the dataset, respectively. On the other hand, Mr. Beast’s comments show a different pattern, neutral sentiment is the most prevalent, with 61% of the dataset, followed by positive sentiment at 25.8%, while negative sentiment remains minimal at only 13.2%.
 <p></p>
 <p align="center">
-  <img width="967" alt="image" src="https://github.com/user-attachments/assets/dc6ba93a-669d-4453-ab16-86b391bb4e56">
+  <img width="993" alt="image" src="https://github.com/user-attachments/assets/0aaac501-d474-4db4-ba94-2a3029691543">
 </p>
 <p align="center"><b><i>Figure 8: Pei chart of the sentiment percentage in Comment’s Data and Mr. Beast’s replies</b></i></p>
 
@@ -350,7 +350,7 @@ The topics of audience’s comments and Mr. Beast replies and comments that gene
 Figure 9 shows the distribution of sentiment labels across different topics by combining the results of Sentiment Analysis and Topic Modelling. The y-axis represents the number of the comments, and the x-axis shows the corresponding topics. In the audience’s comments, positive sentiment is the most frequent in the top three topics, accounting for 45%, 55% and 44%. This is followed by neutral sentiment with 41%, 36%, and 41%, respectively. Negative is the least prevalent across these topics. The pattern in Mr. Beast’s comments and replies is slightly different from the audience’s comments. It shows that neutral sentiment the most prominent, making up 60.6%, 62.6%, and 46.7% of the top three topics. Positive sentiment follows, with 24.7%, 28.5%, and 34.8%, while negative sentiment remains the least common, consistent with the audience's comments. 
 <p></p>
 <p align="center">
-  <img width="930" alt="Comment VADER Sentiment Labels" src="https://github.com/user-attachments/assets/72c7f8b3-4894-462f-a0dc-5d044cc41209">
+  <img width="991" alt="image" src="https://github.com/user-attachments/assets/70c9d7d8-ef95-4341-b190-ed0a3fbcea57">
 </p>
 <p align="center"><b><i>Figure 9: Comment VADER Sentiment Labels by Topic with Percentages</b></i></p>
 
