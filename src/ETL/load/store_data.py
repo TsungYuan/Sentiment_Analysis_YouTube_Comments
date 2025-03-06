@@ -25,6 +25,14 @@ def saveToJson(df, filename):
     print(f"Data saved to {filename}")
 
 def saveToS3(df, bucket_name, object_name, format='csv'):
+    """
+    Save the data as CSV and upload it to AWS S3 bucket.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to save.
+        bucket_name: The name of the S3 bucket are going to be saved to.
+        object_name: The name of the object of the CSV file in the bucket.
+    """
     s3_client = boto3.client('s3')
     buffer = df.to_csv(index=False)
     s3_client.put_object(Bucket = bucket_name, Key = object_name, Body = buffer)
