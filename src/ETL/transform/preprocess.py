@@ -134,15 +134,9 @@ def isEnglish(text):
       print(f"Error detecting language: {e}")
       return False
    
-def toLowercase(text):
-    return text.lower()
 
 def tokenize(text):
     return tokenizer.tokenize(text)
-
-def removePunctuation(text):
-    translator = str.maketrans('', '', string.punctuation)
-    return text.translate(translator)
 
 def removeStopwords(tokens):
     return [token for token in tokens if token not in stop_words]
@@ -160,9 +154,9 @@ def preprocessText(df, text_column):
     Returns:
         pd.DataFrame: A modified DataFrame with new columns for lowercase text, tokenized words, and tokenized words with stop words removed.
     """
-    df['Lowercase'] = df[text_column].apply(toLowercase) # convert to lowercase
+    df['Lowercase'] = df[text_column].str.lower() # convert to lowercase
     df = df[df['Lowercase'].apply(isEnglish)] # filter only english row
-    df['No_Punctuation'] = df['Lowercase'].apply(removePunctuation) # remove punctuation
+    df['No_Punctuation'] = df['Lowercase'].str.translate(str.maketrans('', '', string.punctuation)) # remove punctuation
     df['Tokenized'] = df['No_Punctuation'].apply(tokenize) # tokenize the text
     df['No_Stopwords_Tokenized'] = df['Tokenized'].apply(removeStopwords) # remove stopwords
     df['No_Stopwords_Text'] = df['No_Stopwords_Tokenized'].apply(joinNoStopwordsTokenize) # join no stopword tokenize

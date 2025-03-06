@@ -1,0 +1,107 @@
+Positive_Score,Neutral_Score,Negative_Score,Compound_Score,Sentiment_Label,Original_Comment_Text,Comment_ID
+0.787,0.213,0.0,0.5719,Positive,My Pleasure,UgwrwjfgBGytD-XFrrl4AaABAg.AASvnt_fIngAAT-jiLH70h
+0.17,0.83,0.0,0.7165,Positive,"Great video, and very helpful! Thanks, Adam. Can I ask how to change the max results to more than 100? I tried changing it, but it didn't work. The data I've downloaded still only has 100 entries.",Ugxc1aJ0NDsE1ySbzxR4AaABAg
+0.0,1.0,0.0,0.0,Neutral,I have some follow up videos where you can get more… this one is the latest where the output comes in to sheets https://youtu.be/1KwFFb_tofY,Ugxc1aJ0NDsE1ySbzxR4AaABAg.A9S8_OgISynA9SMtAhcN1d
+0.217,0.783,0.0,0.3612,Positive,Thank you very much brother You helped me a lot,Ugx2UzcKzmMGk81ZP_F4AaABAg
+0.536,0.464,0.0,0.5378,Positive,Very informative. Thanks Adam!,UgzAXPdPvUQopoguE6h4AaABAg
+0.692,0.308,0.0,0.839,Positive,Very interesting. Thanks for sharing your knowledge.,UgzI8RnQCnq0Jm2ugw54AaABAg
+0.165,0.835,0.0,0.7964,Positive,"Thanks Clare. 
+I have done two follow up video on this topic that you could find useful.
+They bring some more options in to the mix.
+Going to do one on implementing the solution directly in sheets in the next few weeks. 
+
+https://youtu.be/A1III_DQU4I
+https://youtu.be/0FtcHjI5lmw",UgzI8RnQCnq0Jm2ugw54AaABAg.A708YTtao6vA71LdhvWbqL
+0.373,0.627,0.0,0.9548,Positive,"@@analyticswithadam wow, that's really amazing! Will watch the two video as well. 
+
+Just a question Adam, do you think it's possible to extract the most engaged (comments, likes) YouTube accounts in a certain channel using YouTube API?",UgzI8RnQCnq0Jm2ugw54AaABAg.A708YTtao6vA75CnT50tnL
+0.069,0.862,0.069,0.0,Neutral,@@claireivy-d3p Id say first its collect all the comments from all the videos then pivot it up on account with  count of comments. Don't think you can get likes by account by ill look in to it.,UgzI8RnQCnq0Jm2ugw54AaABAg.A708YTtao6vA75M7t0bFzV
+0.0,1.0,0.0,0.0,Neutral,How to get email or information of authors who commented,Ugwa0DH6wFE_a3wBG2R4AaABAg
+0.0,1.0,0.0,0.0,Neutral,Username is as far as it goes,Ugwa0DH6wFE_a3wBG2R4AaABAg.A6PGc66JsBAA6Tu644ie_W
+0.323,0.677,0.0,0.7351,Positive,i dont know any coding but u nailed it. job well jobed 🎉 thanx,UgzNbCx96RAy6ajBvvx4AaABAg
+0.301,0.699,0.0,0.8221,Positive,"Funny thing is that comments seem to already be sorted by sentiment by the youtube algorithm, with the most positive on the top.",Ugwhr8A6lVKUq2Pp84J4AaABAg
+0.241,0.603,0.155,0.25,Positive,That’s strange . Is it the amount of likes?,Ugwhr8A6lVKUq2Pp84J4AaABAg.A4aMxTsF87JA4aOUQb05de
+0.098,0.772,0.13,-0.2263,Negative,@@analyticswithadam before comments have any likes they also seem to put negative comments at the bottom. Will have to test this theory myself though.,Ugwhr8A6lVKUq2Pp84J4AaABAg.A4aMxTsF87JA4aOwu-c3B9
+0.128,0.616,0.256,-0.4019,Negative,@@analyticswithadam Yes I just tested it a few times. It sometimes out right hides negative comments.,Ugwhr8A6lVKUq2Pp84J4AaABAg.A4aMxTsF87JA4aj0yiPNIt
+0.452,0.548,0.0,0.765,Positive,@@1.4142 Thats super interesting. Going to give it a go.,Ugwhr8A6lVKUq2Pp84J4AaABAg.A4aMxTsF87JA4fgbwkb7N8
+0.272,0.728,0.0,0.8395,Positive,thank u so much sir .. But this code can fetch only 100 comments maximum .. please tell me an efficient way to fetch thousands of comments!!,UgxpT_xs3_xm-jjkA_N4AaABAg
+0.0,1.0,0.0,0.0,Neutral,"How to Extract all YouTube Comments and Comment Replies from a Playlist
+https://youtu.be/A1III_DQU4I",UgxpT_xs3_xm-jjkA_N4AaABAg.A2wpW0z9ptzA2wuA_2onvH
+0.0,0.855,0.145,-0.296,Negative,@@analyticswithadam  what if  there is no playlist and have to fetch 1000s of comments,UgxpT_xs3_xm-jjkA_N4AaABAg.A2wpW0z9ptzA2x-9MLaY5f
+0.077,0.923,0.0,0.2732,Positive,"@@Trueman94 You can create your own playlist with single or multiple video for other creators. See how you get on with that, should do the job",UgxpT_xs3_xm-jjkA_N4AaABAg.A2wpW0z9ptzA2yIHG7w1B7
+0.694,0.306,0.0,0.7777,Positive,"Fantastic video, thanks a lot!",UgyKczfwzXNiqQ6f7tZ4AaABAg
+0.0,1.0,0.0,0.0,Neutral,can we turn it into a json,UgxnYDJPawXPngyw2sh4AaABAg
+0.161,0.839,0.0,0.3182,Positive,Sure it’s in a JSON on the way out. Just trim some steps,UgxnYDJPawXPngyw2sh4AaABAg.A17HQ5Hd42wA1QHwb8fEEf
+0.43,0.57,0.0,0.9062,Positive,❤💯🙏 Thanks a ton fir this Video 💯🙏❤,UgygB2llnmQ--SK_7g94AaABAg
+0.088,0.69,0.221,-0.5429,Negative,"Hello Adam... How can we grab all the comments and not being limited?
+
+Great work!!!",UgzqrToO0b00DdzbOIN4AaABAg
+0.0,1.0,0.0,0.0,Neutral,Have made an updated video https://youtu.be/A1III_DQU4I?si=_8-d4OpoIHpr2jJm,UgzqrToO0b00DdzbOIN4AaABAg.A0ErtEBpy7HA0EwEUUhOkC
+0.51,0.49,0.0,0.807,Positive,Great tutorial thanks mate! Are you a fellow Irishman?,UgyDzSdwoMV1f9VxDS94AaABAg
+0.188,0.812,0.0,0.4588,Positive,Is there a way to export the list of comments into an excel sheet?,UgwMdKh6F0f-1eEqP2J4AaABAg
+0.201,0.799,0.0,0.6486,Positive,"yeah, if u have them saved as a list there are a number of libraries you could use, or you could just write to a new csv file",UgwMdKh6F0f-1eEqP2J4AaABAg.A0-Y2VyV2wLA2oaNOocPQZ
+0.0,1.0,0.0,0.0,Neutral,Updated video with replies https://youtu.be/A1III_DQU4I?si=_8-d4OpoIHpr2jJm,UgzkcD44BkQbOrivOll4AaABAg
+0.0,1.0,0.0,0.0,Neutral,YouTube community posts can or not with YouTube api?,UgzkcD44BkQbOrivOll4AaABAg.A-UoAvoWMMGA7SA4uleZor
+0.717,0.283,0.0,0.8217,Positive,"Great information, thanks for contribution!!",Ugzz0Fpf8d14FK0A4IF4AaABAg
+0.04,0.855,0.105,-0.6289,Negative,"Need a direct link to Google Cloud or API it is requiring me to sign up and get $300 dollar credit to spend in the next 90 days, WTF. I cannot continue since this tutorial video is incomplete. They are forcing me to put in a payment method. I have done a google API before with no issue..",Ugw3LRrF8G13t8jJPOt4AaABAg
+0.282,0.718,0.0,0.8805,Positive,"Great stuff, thanks! I wonder if I can retrieve all comments related to specific topic or video title (from multiple videos) or video link is required parameter? Thanks again.",UgygAw6xUMLHoggsH0F4AaABAg
+0.057,0.943,0.0,0.3919,Positive,"I had posted a subsequent video and have another one in the works.  
+
+So far we can pull all comments for a channel, playlist or video (or multiple). All are pulling a list of video ids but you can pull that in Python as well.",UgygAw6xUMLHoggsH0F4AaABAg.9z6diBfBOPr9z6mUnBmOZ3
+0.184,0.816,0.0,0.6616,Positive,How many maximum comments can we pull at a time ? I can pull 20 commments . But I want to get more .. Help us,Ugwev_jKGnWmCBzt_1d4AaABAg
+0.0,1.0,0.0,0.0,Neutral,There is a follow up video in the pinned comment. You can pull all the comments,Ugwev_jKGnWmCBzt_1d4AaABAg.9wx43BP0eWR9wxA9bDqMPH
+0.101,0.899,0.0,0.2023,Positive,Only the top level comments are returned through the API. How do we get all the comments?,UgxDIPoeueUrgijL3ah4AaABAg
+0.231,0.769,0.0,0.2023,Positive,You can just get the Top Comments,UgxDIPoeueUrgijL3ah4AaABAg.9wvSeaT2fkS9wvlBRypRda
+0.344,0.656,0.0,0.6478,Positive,@@analyticswithadam top comments constitute around 10% of the total number of comments. 🥲 anyway thanks,UgxDIPoeueUrgijL3ah4AaABAg.9wvSeaT2fkS9wwYmKWJF6S
+0.0,1.0,0.0,0.0,Neutral,How do I put the comments into spreadsheet?,Ugzni32TS8oJKZlQLdl4AaABAg
+0.0,1.0,0.0,0.0,Neutral,"This will work if you are using Google Colab 
+
+from google.colab import files
+df.to_csv('youtube.csv') 
+files.download('youtube.csv')",Ugzni32TS8oJKZlQLdl4AaABAg.9warxfVuH5q9wb-fSLoa1f
+0.1,0.9,0.0,0.25,Positive,Finally got around to making the advanced video. Find out how to Scrape all comments and attributes here https://youtu.be/0FtcHjI5lmw?si=QtUjhVqTXJS3YKZP,Ugz0jr-wSPttBV6_3Ax4AaABAg
+0.0,1.0,0.0,0.0,Neutral,works with live video ?,Ugwgsqk6avnLmEbuEZh4AaABAg
+0.386,0.614,0.0,0.6588,Positive,Great video! will it also scrape Instagram videos?,UgxakP18PCo0I2knevx4AaABAg
+0.0,1.0,0.0,0.0,Neutral,It’s a different api from Facebook,UgxakP18PCo0I2knevx4AaABAg.9w9tXvc5QKw9wB5YyecbZi
+0.418,0.582,0.0,0.8004,Positive,Thank you so much! Great video. Looking forward to the second part,UgytMDSRve1MgK8Qx5V4AaABAg
+0.0,1.0,0.0,0.0,Neutral,Im making it the week after next will upload as soon as its done,UgytMDSRve1MgK8Qx5V4AaABAg.9vqcK3-jfhk9vqr5RhnaEh
+0.177,0.823,0.0,0.8282,Positive,Great video! Can you make an explain video on how to write the code for these pull comments? Why do we need these libraries? Where can we find the format ' youtube = googleapiclient.discovery.build'? Thank you vary much!,Ugxr0La347vlD58XXAt4AaABAg
+0.0,0.96,0.04,-0.4019,Negative,"I tried to make a loop to get all the videos from a channel and scrape all the comments. However, it gave the following error ""the request cannot be completed because you have exceeded your quota"" - From what I understand, the API has a daily request limit, is that it? - In fact, when the video has a private comment, the request returns 403.",UgyDklf1KN3ilk3K9dJ4AaABAg
+0.0,1.0,0.0,0.0,Neutral,"I was just trying to do this, did you figure it out?",UgyDklf1KN3ilk3K9dJ4AaABAg.9vPizY5Ftww9yZQPCzncWO
+0.0,1.0,0.0,0.0,Neutral,"@@stevenbeets9863 they have a limit, so I put only  past 12 months to scrape.",UgyDklf1KN3ilk3K9dJ4AaABAg.9vPizY5Ftww9y_e58c51-v
+0.053,0.947,0.0,0.2023,Positive,"Hi, i Found this video to be very helpfull in my research, I am wondering if there is a way to get the result to be top comment instead of latest comment ?",Ugyg2zelFWswTmS99Wt4AaABAg
+0.0,0.85,0.15,-0.3182,Negative,Heck i am still confused on how to even get more than 100 comments,Ugyg2zelFWswTmS99Wt4AaABAg.9vI3olzsUsF9vI8nWk0yrI
+0.145,0.855,0.0,0.7269,Positive,I’m making a follow up with additional info in a few weeks. I’m sure you can sort by liked descending in Python but will include it along with pagination which is why you only get 100 comments . In the meantime this might help https://developers.google.com/youtube/v3/guides/implementation/pagination,Ugyg2zelFWswTmS99Wt4AaABAg.9vI3olzsUsF9vK4vmjPRDF
+0.0,1.0,0.0,0.0,Neutral,Does this work with Youtube shorts?,UgxhejMpEC88gGkoOP54AaABAg
+0.031,0.842,0.127,-0.8225,Negative,"question, i'm currently using the youtube api to get comments from a video, however, for some reason, the api also gets the comments deleted by the channel's owner (like scam comments or hateful comments that were deleted from the video comments for obvious reasons) is there any way to remove those type of comments from the api request without having to find every single hateful comment's id and remove them manually?",UgzdUYM1VOqn_yH1mp14AaABAg
+0.188,0.812,0.0,0.5256,Positive,I’m going to create a more advanced video in a few weeks. As part of it I’ll look in to it,UgzdUYM1VOqn_yH1mp14AaABAg.9udlqJs0HPy9ueAALI88Vb
+0.0,0.757,0.243,-0.5927,Negative,"But it doesn't show all the comments, even changing the ""maxResults"" variable :(",UgxZJ2w7DWDDlRzhCsl4AaABAg
+0.108,0.802,0.09,0.101,Positive,It’s limited to a page of results I’m going to make another video to get a bit more advanced,UgxZJ2w7DWDDlRzhCsl4AaABAg.9uRac4E2Rh-9uRuWgy1eA5
+0.423,0.577,0.0,0.707,Positive,Thank you so much Adam .It is really very helpful.,UgzZ2J9naRYEJ_3lsMh4AaABAg
+0.37,0.63,0.0,0.8905,Positive,"Very helpful video. I was doing web scrapping using bs4 and selenium, but this API way is very good and easy.",UgymZneejHndDsgeowZ4AaABAg
+0.073,0.927,0.0,0.3167,Positive,There is a lot more you can do with it too with a bit of coding. Im going to make a more advanced video soon. Any tips for learning Selenium?,UgymZneejHndDsgeowZ4AaABAg.9tWZaldcRPi9tYcq9TdCX5
+0.0,1.0,0.0,0.0,Neutral,Can i scrap any youtube video? Or just the video that i have on my channel?,UgxdwwaeDg0lVoOSyFV4AaABAg
+0.176,0.824,0.0,0.4588,Positive,"You can scrape any video, im scraping Leila's video here who is an excel youtuber.",UgxdwwaeDg0lVoOSyFV4AaABAg.9t5kG0HGPJR9t5qygZlbsH
+0.161,0.839,0.0,0.3182,Positive,"hi, how to fetch real time data from you tube, please guide me",UgzH12K8N3yzxBG_lEB4AaABAg
+0.0,1.0,0.0,0.0,Neutral,Real time data for a video or a channel? What is your use case?,UgzH12K8N3yzxBG_lEB4AaABAg.9t4bdUQmuUw9tp_dWGTS4B
+0.337,0.663,0.0,0.7263,Positive,"Thanks, easy peasy! Is there a way we can have a column for language?",Ugyhj9Rpvd4yIe79CIR4AaABAg
+0.0,0.889,0.111,-0.1877,Negative,Here is a list of all the attributes it can pull. Not too comprehensive https://developers.google.com/youtube/v3/docs/comments,Ugyhj9Rpvd4yIe79CIR4AaABAg.9sw1D53eo8e9swaPaLVUtc
+0.162,0.838,0.0,0.7003,Positive,"Thanks, Adam. This was easy and straightforward. 
+Is it possible to get up to 1000 comments using this cos it seems there's a cap of 100 even after I changed the limit",UgwYuDgDBAb8i0PU0RB4AaABAg
+0.063,0.937,0.0,0.4478,Positive,"Hi Paul, There are 100 comments per page, you need another few lines of code to pull the next page, etc but its possible to pull 1000 results.. I have a follow up video on the calendar where I will get a bit more advanced.",UgwYuDgDBAb8i0PU0RB4AaABAg.9sJfBWIQNnr9sL9uC42aBK
+0.0,0.896,0.104,-0.1027,Negative,"Just a question, do we have to pay to use google cloud platform?",Ugy8csMs9DWV9YvjHp54AaABAg
+0.202,0.798,0.0,0.5106,Positive,I dont have billing turned on in the example. There is a free tier.,Ugy8csMs9DWV9YvjHp54AaABAg.9sEN0JW-LWh9sEOgiOdrzq
+0.435,0.565,0.0,0.4738,Positive,"Thank you, Adam! Very straightforward!",UgygVsHMKiVWx3ZfCuV4AaABAg
+0.753,0.247,0.0,0.7263,Positive,Glad it was helpful!,UgygVsHMKiVWx3ZfCuV4AaABAg.9sELEKtyIL-9sJ40vgHlI_
+0.224,0.776,0.0,0.6697,Positive,"hey Adam,
+Thank you for this video, I will really appreciate if you upload another videos[Advance] on the same topic. Waiting........",UgytytDfRkGmlENA2pJ4AaABAg
+0.2,0.8,0.0,0.4588,Positive,I'm looking at options from Excel scraping. Should have something up next week.,UgytytDfRkGmlENA2pJ4AaABAg.9s7-wcYeYOb9sJ46yewJYE
+0.0,0.916,0.084,-0.3919,Negative,"​@@analyticswithadamhello Adam. 
+I wanna ask that what do you think that Tools for extraction will work or not? Like to use scraping tools to scrape data from Twitter?? Any idea",UgytytDfRkGmlENA2pJ4AaABAg.9s7-wcYeYOb9sYp4M2vH0W
+0.0,0.916,0.084,-0.3919,Negative,"​@@analyticswithadamhello Adam. 
+I wanna ask that what do you think that Tools for extraction will work or not? Like to use scraping tools to scrape data from Twitter?? Any idea",UgytytDfRkGmlENA2pJ4AaABAg.9s7-wcYeYOb9sYpBGtAe1o
+0.0,0.916,0.084,-0.3919,Negative,"​@@analyticswithadamhello Adam. 
+I wanna ask that what do you think that Tools for extraction will work or not? Like to use scraping tools to scrape data from Twitter?? Any idea",UgytytDfRkGmlENA2pJ4AaABAg.9s7-wcYeYOb9sYpOgOO7sc
+0.177,0.799,0.023,0.9172,Positive,"@@zoraizelya3975 Im not 100% sure that your account wont get banned. They obviously need to protect their API revenue stream. I was thinking about your issue and looking at ChatGPT to mimic tweets from the time and place you are talking about. It would work especially if you feed it some samples. I have a video coming out tomorrow on scraping with excel you could find somewhere that would work, its super easy.",UgytytDfRkGmlENA2pJ4AaABAg.9s7-wcYeYOb9sYuVLI1Wfc
+0.569,0.431,0.0,0.765,Positive,Thank you for this Adam. Great tuorial,UgxobbYFW5QNK-WFcNF4AaABAg
+0.747,0.253,0.0,0.7096,Positive,Glad it was useful,UgxobbYFW5QNK-WFcNF4AaABAg.9s4V-mdzLq79s5enfTdY8b

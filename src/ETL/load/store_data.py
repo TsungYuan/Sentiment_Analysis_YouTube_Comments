@@ -1,4 +1,5 @@
 import pandas as pd
+import boto3
 
 def saveToCsv(df, filename):
     """
@@ -22,3 +23,11 @@ def saveToJson(df, filename):
     """
     df.to_json(filename, orient="records", lines=True)
     print(f"Data saved to {filename}")
+
+def saveToS3(df, bucket_name, object_name, format='csv'):
+    s3_client = boto3.client('s3')
+    buffer = df.to_csv(index=False)
+    s3_client.put_object(Bucket = bucket_name, Key = object_name, Body = buffer)
+    print(f"Data saved to s3://{bucket_name}/{object_name}")
+
+

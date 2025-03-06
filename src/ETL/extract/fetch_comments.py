@@ -1,7 +1,7 @@
 import googleapiclient.discovery
 import googleapiclient.errors
 
-def getYoutubeComments(youtube, video_ID):
+def getYoutubeComments(youtube, video_ID, maxResutls=100):
     """
     Fetch comments from a YouTube video by video ID.
 
@@ -17,7 +17,7 @@ def getYoutubeComments(youtube, video_ID):
         response = youtube.commentThreads().list(
             part=["id", "replies", "snippet"],
             videoId=video_ID,
-            maxResults = 100
+            maxResults = maxResutls
         ).execute()
         comment_list.extend(response['items'])
 
