@@ -33,9 +33,13 @@ def saveToS3(df, bucket_name, object_name, format='csv'):
         bucket_name: The name of the S3 bucket are going to be saved to.
         object_name: The name of the object of the CSV file in the bucket.
     """
-    s3_client = boto3.client('s3')
-    buffer = df.to_csv(index=False)
-    s3_client.put_object(Bucket = bucket_name, Key = object_name, Body = buffer)
-    print(f"Data saved to s3://{bucket_name}/{object_name}")
+    try:
+        s3_client = boto3.client('s3')
+        buffer = df.to_csv(index=False)
+        s3_client.put_object(Bucket = bucket_name, Key = object_name, Body = buffer)
+        
+        print(f"Data saved to s3://{bucket_name}/{object_name}")
+    except Exception as e:
+        print(f"Failed to save to S3: {e}")
 
 
