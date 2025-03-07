@@ -5,6 +5,10 @@ import nltk
 from nltk.corpus import words
 from nltk.tokenize import RegexpTokenizer
 from langdetect import detect, LangDetectException
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def toDataframeComments(comment_list):
     """
@@ -62,12 +66,17 @@ def toDataframeComments(comment_list):
             'Comment_Published_Date': 'datetime64[ns, UTC]',
             'Comment_Updated_Date': 'datetime64[ns, UTC]'
         })
+        
+        if not all_comments_df:
+            logger.warning("No comments provided to convert to DataFrame")
+            return pd.DataFrame()
+        logger.info(f"Converting {len(all_comments_df)} comments to DataFrame")
 
     except KeyError as e:
-        print(f"Key error when accessing JSON data: {e}")
+        logger.error(f"Key error when accessing JSON data: {str(e)}")
         return pd.DataFrame() # return an empty dataframe on error
     except Exception as e:
-        print(f"Unexcepted error in toDataFrame: {e}")
+        logger.error(f"Unexcepted error in toDataFrame: {str(e)}")
         return pd.DataFrame() # return an empty dataframe on error
     
     return all_comments_df
@@ -104,11 +113,16 @@ def toDataFrameVideoInfo(video_info):
             'Video_Comment_Count': 'float64'
         })
 
+        if not video_info_df:
+            logger.warning("No video info provided to convert to DataFrame")
+            return pd.DataFrame()
+        logger.info(f"Converting {len(video_info_df)} videos info to DataFrame")
+
     except KeyError as e:
-        print(f"Key error when accessing JSON data: {e}")
+        logger.error(f"Key error when accessing JSON data: {str(e)}")
         return pd.DataFrame() # return an empty dataframe on error
     except Exception as e:
-        print(f"Unexcepted error in toDataFrame: {e}")
+        logger.error(f"Unexcepted error in toDataFrame: {str(e)}")
         return pd.DataFrame() # return an empty dataframe on error
 
     return video_info_df

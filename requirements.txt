@@ -1,0 +1,43 @@
+aiobotocore==2.21.1
+boto3==1.37.0
+botocore==1.37.1
+s3transfer==0.11.0
+
+"""
+SENTIMENT ANALYSIS - YOUTUBE COMMENTS/
+├── airflow_home/               # Airflow home directory
+│   ├── dags/                   # DAG definitions
+│   │   ├── youtube_etl_dag.py  # Main DAG file
+│   │   └── __init__.py         # Optional: Makes dags/ a package
+│   ├── logs/                   # Airflow logs (auto-generated)
+│   ├── plugins/                # Custom plugins (optional)
+│   └── airflow.cfg             # Airflow configuration
+├── data/                       # Data storage (raw, processed, or output)
+│   ├── raw/                    # Raw data (e.g., API responses)
+│   ├── processed/              # Processed data
+│   └── output/                 # Final outputs (e.g., S3 uploads)
+├── src/                        # Your ETL and analysis code
+│   ├── analyze/                # Analysis and visualization
+│   │   ├── visualize.py
+│   │   └── __init__.py
+│   ├── ETL/                    # ETL pipeline
+│   │   ├── extract/            # Extraction logic
+│   │   │   ├── fetch_comments.py
+│   │   │   ├── fetch_video_information.py
+│   │   │   └── __init__.py
+│   │   ├── load/               # Loading logic
+│   │   │   ├── store_data.py
+│   │   │   └── __init__.py
+│   │   ├── transform/          # Transformation logic
+│   │   │   ├── preprocess.py
+│   │   │   ├── sentiment_analysis.py
+│   │   │   ├── topic_modelling.py
+│   │   │   └── __init__.py
+│   │   └── __init__.py
+│   └── utils/                  # Utility functions
+│       ├── logging_config.py
+│       └── __init__.py
+├── .env                        # Environment variables
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+"""

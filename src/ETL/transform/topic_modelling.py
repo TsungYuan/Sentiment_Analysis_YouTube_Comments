@@ -1,5 +1,9 @@
 from bertopic import BERTopic
 import pandas as pd
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def create_bertopic_model(df, text_column, id_column, topic_num, verbose=True):
     """
@@ -16,23 +20,33 @@ def create_bertopic_model(df, text_column, id_column, topic_num, verbose=True):
         list: List of topics for each document.
         list: List of probabilities for each topic per document.
     """
-    # create topic modelling model
-    model = BERTopic(verbose=verbose, nr_topics=topic_num)
+    if df.empty:
+        logger.warning("Empty DataFrame provided for topic modeling.")
+        return None, [], [], pd.DataFrame()
+    logger.info(f"Preparing topic modeling on {len(df)} documents.")
 
-    # prepare documents from the specified text column
-    docs = df[text_column].tolist()
-    ids = df[id_column].tolist()
+    try:
+        # create topic modelling model
+        model = BERTopic(verbose=verbose, nr_topics=topic_num)
 
-    # fit the model to the document and transform
-    topics, probabilities = model.fit_transform(docs)
+        # prepare documents from the specified text column
+        docs = df[text_column].tolist()
+        ids = df[id_column].tolist()
 
-    topic_modelling_df = pd.DataFrame({
-        "No_Stopwords_Text": docs, 
-        "Topic": topics,
-        "Comment_ID": ids
-    })
+        # fit the model to the document and transform
+        topics, probabilities = model.fit_transform(docs)
 
-    return model, topics, probabilities, topic_modelling_df
+        topic_modelling_df = pd.DataFrame({
+            "No_Stopwords_Text": docs, 
+            "Topic": topics,
+            "Comment_ID": ids
+        })
+
+        logger.info(f"Identified {len(topic_modelling_df)} topics.")
+
+        return model, topics, probabilities, topic_modelling_df
+    except Exception as e:
+        logger.error(f"Error in topic modeling: {str(e)}.")
 
 
     

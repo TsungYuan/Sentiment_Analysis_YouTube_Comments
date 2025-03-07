@@ -1,5 +1,10 @@
 import pandas as pd
 import boto3
+import logging
+import time
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def saveToCsv(df, filename):
     """
@@ -9,8 +14,11 @@ def saveToCsv(df, filename):
         df (pd.DataFrame): The DataFrame to save.
         filename: (str): The path and name of the CSV file to save.
     """
-    df.to_csv(filename, index=False)
-    print(f"Data saved to {filename}")
+    try:
+        df.to_csv(filename, index=False)
+        logger.info(f"Data save as {filename}.")
+    except Exception as e:
+        logger.error(f"Failed to the data: {str(e)}")
 
 
 def saveToJson(df, filename):
@@ -21,8 +29,12 @@ def saveToJson(df, filename):
         df (pd.DataFrame): The DataFrame to save.
         filename: (str): The path and name of the JSON file to save.
     """
-    df.to_json(filename, orient="records", lines=True)
-    print(f"Data saved to {filename}")
+    try:
+        df.to_json(filename, orient="records", lines=True)
+        logger.info(f"Data save as {filename}.")
+    except Exception as e:
+        logger.error(f"Failed to the data: {str(e)}")
+
 
 def saveToS3(df, bucket_name, object_name, format='csv'):
     """
@@ -37,9 +49,11 @@ def saveToS3(df, bucket_name, object_name, format='csv'):
         s3_client = boto3.client('s3')
         buffer = df.to_csv(index=False)
         s3_client.put_object(Bucket = bucket_name, Key = object_name, Body = buffer)
-        
-        print(f"Data saved to s3://{bucket_name}/{object_name}")
+
+        logger.info(f"Data saved to s3://{bucket_name}/{object_name}")
     except Exception as e:
         print(f"Failed to save to S3: {e}")
+
+
 
 
